@@ -18,4 +18,10 @@ prost = "0.13"
 pbjson = "0.7"
 pbjson-types = "0.7"
 serde = "1.0"
-tonic = { version = "*", features = ["codegen", "prost", "transport"] }
+tonic = { version = "0.12.3", features = ["codegen", "prost", "transport"] }
+tonic-build = "0.12.3"
+alloy-primitives= "0.8.21"
+tracing = "0.1.41"
+bincode = "1.3.3"
+op-succinct-host-utils = { path = "../op-succinct/utils/host" } #{ git = "https://github.com/agglayer/op-succinct", branch = "vcastellm/rust-agglayer" }
+op-succinct-validity = { path = "../op-succinct/validity" } #{ git = "https://github.com/agglayer/op-succinct", branch = "vcastellm/rust-agglayer" }
