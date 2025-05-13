@@ -609,7 +609,7 @@ dependencies = [
  "alloy-rlp",
  "alloy-serde 0.11.1",
  "alloy-sol-types",
- "itertools 0.14.0",
+ "itertools 0.13.0",
  "serde",
  "serde_json",
  "thiserror 2.0.12",
@@ -629,7 +629,7 @@ dependencies = [
  "alloy-rlp",
  "alloy-serde 0.12.6",
  "alloy-sol-types",
- "itertools 0.14.0",
+ "itertools 0.13.0",
  "serde",
  "serde_json",
  "thiserror 2.0.12",
@@ -1329,7 +1329,7 @@ dependencies = [
  "bitflags",
  "cexpr",
  "clang-sys",
- "itertools 0.10.5",
+ "itertools 0.12.1",
  "lazy_static",
  "lazycell",
  "log",
@@ -4381,7 +4381,7 @@ dependencies = [
 [[package]]
 name = "op-succinct-client-utils"
 version = "0.1.0"
-source = "git+https://github.com/agglayer/op-succinct?branch=vcastellm%2Frust-agglayer#721464db289a9e729b3ce12ed1cae8689f684dbb"
+source = "git+https://github.com/agglayer/op-succinct?branch=vcastellm%2Frust-agglayer#abc36df50c9b62e5e6a004840e01972e6349bb0c"
 dependencies = [
  "alloy-consensus 0.12.6",
  "alloy-eips 0.12.6",
@@ -4414,7 +4414,7 @@ dependencies = [
 [[package]]
 name = "op-succinct-elfs"
 version = "0.1.0"
-source = "git+https://github.com/agglayer/op-succinct?branch=vcastellm%2Frust-agglayer#721464db289a9e729b3ce12ed1cae8689f684dbb"
+source = "git+https://github.com/agglayer/op-succinct?branch=vcastellm%2Frust-agglayer#abc36df50c9b62e5e6a004840e01972e6349bb0c"
 
 [[package]]
 name = "op-succinct-grpc"
@@ -4436,7 +4436,7 @@ dependencies = [
 [[package]]
 name = "op-succinct-host-utils"
 version = "0.1.0"
-source = "git+https://github.com/agglayer/op-succinct?branch=vcastellm%2Frust-agglayer#721464db289a9e729b3ce12ed1cae8689f684dbb"
+source = "git+https://github.com/agglayer/op-succinct?branch=vcastellm%2Frust-agglayer#abc36df50c9b62e5e6a004840e01972e6349bb0c"
 dependencies = [
  "alloy-consensus 0.12.6",
  "alloy-contract",
