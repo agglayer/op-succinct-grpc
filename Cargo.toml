@@ -14,11 +14,11 @@ proto_full = ["proofs"]
 
 [dependencies]
 bytes = "1.1.0"
-prost = "0.13"
+prost = "0.13.5"
 pbjson = "0.7"
 pbjson-types = "0.7"
 serde = "1.0"
-tonic = { version = "0.12.3", features = ["codegen", "prost", "transport"] }
-tonic-build = "0.12.3"
+tonic = { version = "0.13.1", features = ["codegen", "prost", "transport"] }
+tonic-build = "0.13.1"
 tracing = "0.1.41"
 bincode = "1.3.3"
