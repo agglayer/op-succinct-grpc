@@ -8,6 +8,9 @@ service Proofs {
 
   // Retrieve a specific mock proof by its ID
   rpc GetMockProof(GetMockProofRequest) returns (GetMockProofResponse);
+
+  // Retrieve a witness for a specific block
+  rpc GetWitness(GetWitnessRequest) returns (GetWitnessResponse);
 }
 
 // Request for an aggregation proof
@@ -33,4 +36,11 @@ message GetMockProofRequest {
 // Response message for GetMockProof
 message GetMockProofResponse {
   bytes proof = 1; // The mock proof data
+}
+
+message GetWitnessResponse {
+  bytes witness = 1;
+}
+
+message GetWitnessRequest {
 }
